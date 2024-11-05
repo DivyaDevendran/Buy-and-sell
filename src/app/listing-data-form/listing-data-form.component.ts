@@ -3,14 +3,14 @@ import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-new-listing-page',
+  selector: 'app-listing-data-form',
   standalone: true,
   imports: [FormsModule],
-  templateUrl: './new-listing-page.component.html',
-  styleUrl: './new-listing-page.component.css'
+  templateUrl: './listing-data-form.component.html',
+  styleUrl: './listing-data-form.component.css'
 })
-export class NewListingPageComponent {
-
+export class ListingDataFormComponent {
+  
   name: string = '';
   description: string = '';
   price: string = '';

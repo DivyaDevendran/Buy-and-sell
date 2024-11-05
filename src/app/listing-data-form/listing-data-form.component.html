@@ -1,6 +1,4 @@
-<div class="content-box">
-    <h2>Create new listing</h2>
-    <form (ngSubmit)="onSubmit()">
+<form (ngSubmit)="onSubmit()">
         <div>
             <label for="name">Name: </label>
             <input id="name" name="name" type="text" [(ngModel)]="name" />
@@ -14,5 +12,4 @@
             <input id="price" name="price" type="text" [(ngModel)]="price" />
         </div>
         <button type="submit">Create Listing</button>
-    </form>
-</div>
+</form>
